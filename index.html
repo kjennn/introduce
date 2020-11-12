@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>권지은</title>
+   
+    <style>
+       
+        body{
+            background: url("img/배경.jpg");
+            margin: 0;
+            font-family: "Gugi",sans-serif;
+        }
+        a {
+            color : black;
+
+            text-decoration: none; /*밑줄없애기*/
+        }
+        h1 {
+            font-size: 30px; 
+            
+            margin: 0px;
+            padding: 20px;
+        } 
+    
+         .saw {
+            color: gray;
+            line-height: 150%;
+        }
+       
+        #grid ol{
+            color: gray;
+            font-style: italic;
+            width: 100px;
+            height: 500px;
+            margin: 0;
+            padding: 20px;
+            padding-left: 33px;
+            border-right: 1px solid gray;
+            
+        }
+        #grid{
+            
+            display: grid;
+            grid-template-columns: 150px 1fr 1fr; /*칼럼 생성, 첫번째 칼럼은 150크기로, 두번째 칼럼은 나머지 다*/
+
+        }
+        #article{
+            font-family: "Nanum Gothic",sans-serif;
+            line-height: 150%;
+            background-color: white ;
+            background-color: rgba( 255, 255, 255, 0.5 );
+            padding-left: 25px;
+            padding-right: 25px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-right: 25px;
+            margin-left: 25px;
+            width: 800px;
+            height: 400px;
+            
+        }
+    
+        h3{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: 3px dotted gray;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+        #toph1{
+            display: grid;
+            grid-template-columns: 1000px 1fr;
+            border-bottom: 1px solid gray;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="toph1">
+       <h1><a href="index.html">KWON JI EUN</a></h1>
+       <a href="https://www.instagram.com/jeo_ng927/"  target = "_blank">
+       <img src="img/insta.png" height="30px" width="30px" style="margin-top: 30px;" >
+    </a>
+    </div>
+    
+        <div id="grid">
+            
+                <ol>
+                    <li><a href="kwon.html" class="saw" >KWON</a></li>
+                    <li><a href="ji.html" class="saw" >JI</a></li>
+                    <li><a href="eun.html" class="saw" >EUN</a></li>
+                </ol>
+           
+        
+            <div id="article">
+                <h3>BASIC</h3>
+                <p>
+                    ▷ 이름 : 권지은 <br>
+                   ▷ 고향 : 광주 광역시 <br>
+                   ▷ 학교 , 전공 : 순천대학교 정보통신공학 <br>
+                   ▷ 나이 : 23세 (17학번)
+                </p>
+            </div>
+        </div>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    </body>
+</html>
